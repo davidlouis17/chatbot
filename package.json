@@ -1,0 +1,30 @@
+{
+  "name": "psybot-pfa",
+  "version": "1.0.0",
+  "description": "PsyBot - Chatbot Psychological First Aid (PFA) berbasis WhatsApp dengan Google Gemini",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "pfa",
+    "psychological-first-aid",
+    "gemini",
+    "baileys"
+  ],
+  "author": "Developer",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^7.0.0-rc13",
+    "axios": "^1.6.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
